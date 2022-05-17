@@ -10,4 +10,4 @@ Para acessar o projeto, basta [clicar aqui](https://danieldpalma.github.io/doWhi
 ## Tecnologias
 Para este projeto foi utilizado: HTML, CSS e Javascript.
 
-### Status: Projeto em andamento
+### Status: Concluido
