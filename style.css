@@ -17,12 +17,14 @@ body {
 body {
   display: grid;
   place-items: center;
+  overflow: overlay;
 }
 
 main {
-  background: url('./assets/background.svg');
-  width: 375px;
-  height: 812px;
+  background: url('./assets/background.svg') no-repeat center/cover;
+  width: 100vw;
+  height: 100vh;
+  min-height: 812px;
 }
 
 .container {
