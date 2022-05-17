@@ -7,10 +7,9 @@
 
 html,
 body {
-  --black: hsk(240, 6%, 13%);
+  --black: hsl(240, 6%, 13%);
   --grey: hsl(240, 9%, 89%);
   height: 100%;
-  width: 100%;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -18,7 +17,6 @@ body {
 body {
   display: grid;
   place-items: center;
-  overflow: hidden;
 }
 
 main {
@@ -60,15 +58,12 @@ h1 {
   margin-bottom: 0.25rem;
 }
 
-.github {
+.github a {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 2.32rem;  
-}
-
-.github a {
   line-height: 1.62rem;
   color: var(--grey);
   text-decoration: none;
